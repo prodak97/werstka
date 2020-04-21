@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "Averta";
+    src: url("css/fonts/Averta-black");
+    font-family: "Averta-italic";
+    src: url("css/fonts/Averta-italic");
+}
+p{
+    font-family: Averta;
+    font-weight: bold;
+    color:white;
+}
+.header{
+    background-color:#734AEA;
+    padding:100px 150px 100px 150px;
+    height: 975px;
+}
+.header-bgg-container img{
+    position: absolute;
+    right:-81px;
+}
+.header h1{
+    color:white;
+}
+.logo{
+    padding-left:15px;
+}
+button{
+    border: none;
+    padding:5px 20px;
+    text-align: center;
+    text-justify: auto;
+}
+.buttons1{
+    justify-content: flex-end;
+}
+.bck{
+    background-color:#F7B632;
+    border-radius: 10px;
+}
+.nobck{
+    background-color: transparent;
+}
+
+

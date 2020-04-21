@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "Averta";
+    src: url("css/fonts/Averta-black");
+    font-family: "Averta-italic";
+    src: url("css/fonts/Averta-italic");
+}
+.col-md-12.col-md-10.col-md-3{
+    padding-left: none;
+}
+body{
+    background-color:#F6F6F6;
+}
+p{
+    font-family: Averta;
+    font-weight: bold;
+    color:white;
+}
+.logo{
+    padding-left:15px;
+}
+.header{
+    background-color:#734AEA;
+    background-image:url(../css/Component10–1.png);
+    background-repeat: no-repeat;
+    background-position-x: 460px;
+    background-position-y: 200px;
+    background-size: 1000px;
+    padding:100px 150px 100px 150px;
+    height: 800px;
+}
+.header-title{
+    padding-top:150px;
+}
+.header-title input{
+    margin-left:15px;
+    border:none;
+    border-radius: 8px;
+}
+.header h1{
+    color:white;
+}
+.marketing-toolbar{
+    position: relative;
+    bottom:40px;
+    left:125px;
+}
+
+.marketing-toolbar img{
+    margin-top:20px;
+}
+.marketing-toolbar .col-md-12{
+    padding-top:20px;
+}
+.padding-bottom-40px{
+    padding-bottom:40px;
+}
+.margin-left-40px{
+    margin-left:40px;
+}
+.padding-top-10px{
+    padding-top:10px;
+}
+.marketing-inset{
+    display:flex;
+    justify-content: center;
+}
+.marketing-inset p{
+    color:black;
+    margin:0px 40px 0 40px;
+    text-align: center;
+}
+.marketing-inset .title{
+    padding-top: 10px;
+    font-weight: 800;
+}
+.marketing-inset .description{
+    padding-top:10px;
+    font-weight: 500;
+
+}
+.media-tabs{
+    margin-top:100px
+}
+.media-tabs img{
+    padding:15px
+}
+.media-tabs .icon{
+    position: relative;
+    width:40px;
+    height:25px;
+}
+.media-tabs h5{
+    display: flex;
+    padding-top:8px;
+    font-weight: 700;
+}
+.media-tabs .container{
+    width: 300px;
+    height:150px;
+    margin:10px;
+}
+.media-tabs .col-md-3{
+    height: 130px;
+    margin:5px;
+}
+.howitwoorks{
+    margin:128px;
+    height:540px;
+    background-image: url(../css/howitwoorks-background.png);
+    background-repeat: no-repeat;
+    background-position-x: 400px;
+    background-position-y: 60px;
+    background-size: 800px;
+
+}
+:disabled .col-md-3{
+    display:flex;
+    flex-direction:column;
+}
+button{
+    border: none;
+    padding:5px 20px;
+    text-align: center;
+    text-justify: auto;
+}
+.buttons1{
+    justify-content: flex-end;
+}
+.bgg-orange{
+    background-color:#F7B632;
+    border-radius: 8px;
+}
+.bgg-white{
+    background-color:#Ffffff;
+    border-radius: 8px; 
+}
+.nobck{
+    background-color: transparent;
+}
+
+
+
