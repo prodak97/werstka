@@ -10,10 +10,8 @@
 body{
     background-color:#F6F6F6;
 }
-p{
-    font-family: Averta;
-    font-weight: bold;
-    color:white;
+.row{
+    margin-left:0px!important;
 }
 .logo{
     padding-left:15px;
@@ -28,13 +26,85 @@ p{
     padding:100px 150px 100px 150px;
     height: 800px;
 }
+button{
+    border: none;
+    padding:5px 20px;
+    text-align: center;
+    text-justify: auto;
+}
+.buttons1{
+    justify-content: flex-end;
+}
+.buttons1 button p{
+    margin-bottom:0px;
+    color:white
+}
+.bgg-orange{
+    background-color:#F7B632;
+    border-radius: 8px;
+}
+.bgg-white{
+    background-color:#Ffffff;
+    border-radius: 8px; 
+}
+.nobgg{
+    background-color: transparent;
+    
+}
 .header-title{
     padding-top:150px;
+    width: 619px;
+}
+.header-title button{
+    background-color: #F7B632;
+    border:none;
+    color:white;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius:10px;
+    margin-left:7px;
+
 }
 .header-title input{
-    margin-left:15px;
     border:none;
     border-radius: 8px;
+    width:350px;
+    height:50px;
+    font-size: 14px;
+}
+.header-title .input-container{
+    border-radius: 8px;
+    background-color: white;
+}
+.header-title .input-container img{
+    padding-left:10px;
+}
+.header-title .input-container .arrow{
+    padding-left:0px;
+    padding-right:10px;
+}
+.header-title ::placeholder{
+    padding-left:8px;
+}
+.popular{
+    margin-top:15px;
+}
+.popular-tab{
+    margin:10px;
+    width:93px;
+    background-color: transparent;
+    border-radius: 8px;
+    border:1px solid #D6CAF9;
+}
+.popular p{
+    color:#D6CAF9;
+    font-size:13px;
+    text-shadow: 16%;
+    margin-bottom: 0px;
+    padding:5px 15px 5px 0px;
+}
+.popular-tab p{
+    padding:5px 15px 5px 15px;
 }
 .header h1{
     color:white;
@@ -60,6 +130,19 @@ p{
 .padding-top-10px{
     padding-top:10px;
 }
+.padding-bottom-20px{
+    padding-bottom:20px;
+}
+.margin-left-130px{
+    margin-left:40px;
+}
+.padding-right-50px{
+    padding-right:140px;
+}
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+ }
 .marketing-inset{
     display:flex;
     justify-content: center;
@@ -79,7 +162,11 @@ p{
 
 }
 .media-tabs{
+    margin-left:110px;
     margin-top:100px
+}
+.media-tabs h4{
+    padding-left:10px;
 }
 .media-tabs img{
     padding:15px
@@ -103,39 +190,113 @@ p{
     height: 130px;
     margin:5px;
 }
+.color-black{
+    color:black;
+}
 .howitwoorks{
-    margin:128px;
-    height:540px;
+    margin:118px;
+    height:600px;
     background-image: url(../css/howitwoorks-background.png);
     background-repeat: no-repeat;
     background-position-x: 400px;
     background-position-y: 60px;
-    background-size: 800px;
+    background-size: 830px;
 
 }
-:disabled .col-md-3{
-    display:flex;
-    flex-direction:column;
+.pro-icon{
+    position:relative;
+    bottom:15px;
+    right:10px;
+    background-color: blueviolet;
+    width: 83px;
+    border: 1px solid white;
+    border-radius: 40px;
 }
-button{
-    border: none;
-    padding:5px 20px;
-    text-align: center;
-    text-justify: auto;
+.pro-icon p{
+    font-size: 11px;
+    font-family: Averta;
+    margin:0px;
+    padding:4px 13px 4px 13px;
 }
-.buttons1{
-    justify-content: flex-end;
+
+.featured-user{
+    position: relative;
+    bottom:20px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:10px;
 }
-.bgg-orange{
-    background-color:#F7B632;
-    border-radius: 8px;
+.featured-username{
+    padding-left:10px;
+    margin-bottom:0px;
+    color:black
 }
-.bgg-white{
-    background-color:#Ffffff;
-    border-radius: 8px; 
+.featured-block{
+    width:320px;
+    margin:10px;
+    border-radius: 20px;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+                    0 2px 2px rgba(0,0,0,0.12), 
+                    0 4px 4px rgba(0,0,0,0.12), 
+                    0 8px 8px rgba(0,0,0,0.12),
+                    0 16px 16px rgba(0,0,0,0.12);
 }
-.nobck{
-    background-color: transparent;
+.featured-description{
+    border-bottom: solid 1px #E3E3E3;
+    margin:13px;
+    padding-left: 10px;
+    padding-bottom:5px;
+    font-weight:700;
+}
+.featured-description p{
+    font-size: 14px;
+    color:#D6CAF9;
+    font-weight:700;
+}
+.hidden{
+    visibility: hidden;
+}
+.rate-number{
+    color:#FFBF00;
+}
+.WoorkBlog{
+    margin-top:60px;
+}
+.WoorkBlog h2{
+    margin-left: 100px;
+}
+.blog-inset{
+    padding:20px;
+}
+.StayAtHome{
+    margin-top:20px;
+    padding-top:15px;
+    width:1342px;
+    height:281px;
+    background-color: #734AEA;
+    border-radius: 15px;
+}
+.pre-footer{
+    margin-top:70px;
+    width:1278px;
+}
+.pre-footer p{
+    color:grey;
+    font-weight: 600;
+    font-size: 14px;
+}
+.pre-footer .flex-column .title{
+    color:black;
+    font-size:16px;
+}
+.footer{
+    margin-left:70px;
+    margin-right:70px;
+    padding-top:30px;
+    margin-top:30px;
+    border-top:2px solid #E3E3E3;
 }
 
 
