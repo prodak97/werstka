@@ -10,38 +10,56 @@
     font-family: Averta-bold;
     src: url("../css/fonts/Averta-Bold.otf")
 }
+@font-face{
+    font-family: Averta-semibold;
+    src:url("../css/fonts/Averta-Semibold.otf")
+}
+@font-face{
+    font-family: Averta-extrabold;
+    src:url("../css/fonts/Averta-ExtraBold.otf")
+}
 .col-md-18.col-md-10.col-md-3{
     padding-left: none;
 }
 body{
     background-color:#F6F6F6;
-    margin:100px 150px 100px 150px;
 }
 .row{
     margin-left:0px!important;
 }
-.logo{
-    padding-left:15px;
+.logo-container img{
+    width:140px;
+    height:36px;
 }
 .header{
     background-color:#734AEA;
-    background-image:url(../css/Component10–1.png);
+    background-image:url(../css/Group\ 1345.png);
     background-repeat: no-repeat;
-    background-position-x: 460px;
-    background-position-y: 200px;
-    padding:100px 150px 100px 150px;
-    background-size: 1000px;
-    height: 800px;
+    background-position-x: 596px;
+    background-position-y: 203px;
+    padding:100px 142px 100px 142px;
+    height: 980px;
 }
-button{
-    border: none;
-    padding:10px 20px;
-    text-align: center;
-    text-justify: auto;
-}
-.buttons1{
+.head-nav{
     justify-content: flex-end;
-    font-family: Averta-regular;
+}
+.head-nav button{
+    font-family: Averta-bold;
+    font-size:20px;
+    color:white;
+    background-color: transparent;
+    border:none;
+    
+    border-radius:10px;
+}
+.head-nav div :nth-child(3){
+    background-color:#F7B632;
+    width: 152px;
+    height: 56px;
+}
+.head-nav p{
+    margin-bottom:0px;
+    padding:13px;
 }
 .buttons1 button p{
     margin-bottom:0px;
@@ -56,80 +74,354 @@ button{
     border-radius: 8px; 
 }
 .nobgg{
-    background-color: transparent;
-    
+    background-color: transparent;  
 }
 .header-title{
-    font-family: Averta-regular;
-    padding-top:150px;
-    width: 619px;
+    padding-top:223px;
+}
+.header-title h1{
+    padding-bottom:31px;
+    width: 630px;
+    font-size:50px;
+    font-family: Averta-bold;
 }
 .header-title button{
     background-color: #F7B632;
     border:none;
     color:white;
-    font-size: 15px;
-    font-weight: 700;
+    font-size:23px;
+    padding:5px 10px 5px 10px;
+    width:125px;
+    height:65px;
+    font-family:Averta-semibold;
     border-radius:10px;
-    margin-left:7px;
+    margin-left:9px;
 
 }
 .header-title input{
     border:none;
     border-radius: 8px;
-    width:350px;
+    width:450px;
     height:50px;
-    font-size: 14px;
+    padding-left:10px;
+    font-size: 18px;
+    opacity: 0.5;
 }
 .header-title .input-container{
-    border-radius: 8px;
+    border-radius: 10px;
     background-color: white;
+    width:513px;
 }
 .header-title .input-container img{
-    padding-left:10px;
+    margin-left:21px;
+    width: 21px;
+    height: 21px;
 }
 .header-title .input-container .arrow{
+    opacity: 1;
     padding-left:0px;
-    padding-right:10px;
-}
-.header-title ::placeholder{
-    padding-left:8px;
+    margin-right:14px;
 }
 .popular{
     margin-top:15px;
+    width:500px;
+    opacity: 0.7;
 }
 .popular-tab{
     margin:10px;
-    width:98px;
+    height:44px;
     background-color: transparent;
-    border-radius: 8px;
-    border:1px solid #D6CAF9;
+    border-radius: 4px;
+    border:1.5px solid rgba(168, 168, 168, 0.623);
+}
+.popular-tab:nth-child(1){
+    padding-left:0px;
+    margin-left: 0px;
+    border: none;
+}
+.popular-tab:nth-child(1) p{
+    padding-left:0px;
+    margin-left: 0px;
+    padding-right: 11px;
 }
 .popular p{
     color:white;
-    opacity: 0.7;
-    font-size:13px;
-    text-shadow: 16%;
+    font-family: Averta-semibold;
+    font-size:14px;
     margin-bottom: 0px;
-    padding:5px 15px 5px 0px;
-}
-.popular-tab p{
-    padding:5px 15px 5px 15px;
+    padding:10px 16px;
 }
 .header h1{
     color:white;
 }
+.watch-demo{
+    color:white;
+    position: relative;
+    top:224px;
+    font-family:Averta-bold;
+    font-size:23px;
+}
 .marketing-toolbar{
     position: relative;
+    background-color: #F7B632;
+    border-radius:10px;
     bottom:40px;
-    left:125px;
+    width:100%;
+    padding:0px 40px 50px 40px;
+    margin-bottom:146px;
 }
 
 .marketing-toolbar img{
     margin-top:20px;
 }
-.marketing-toolbar .col-md-18{
-    padding-top:20px;
+
+.marketing-inset{
+    align-content: center;
+    justify-content: center;
+}
+.marketing-inset p{
+    color:#322127;
+    text-align: center;
+}
+.marketing-inset .title{
+    padding-top: 10px;
+    font-family: Averta-extrabold;
+    font-size:22px;
+    color:#322127;
+    width: 236px;
+}
+.marketing-inset .description{
+    font-family: Averta-regular;
+    width:320px;
+    font-size:17px;
+}
+.marketing-inset .img-container{
+    height:98px
+}
+.media-tabs{
+    margin:0px 142px 146px 142px;
+}
+.media-tabs h4{
+    font-size: 32px;
+    font-family: Averta-extrabold;
+    opacity:0.8;
+    margin-bottom:15px;
+}
+.media-tabs img{
+    padding:10px;
+}
+.media-tabs .icon{
+    position: relative;
+    width:40px;
+    height:25px;
+}
+.media-tabs h5{
+    font-family: Averta-extrabold;
+    font-size: 22px;
+}
+.media-tabs .tab{
+    width: 395px;
+    height:206px;
+    margin:6px;
+}
+.tabs :nth-child(1){
+    margin-left:0px;
+}
+.tabs :nth-child(5){
+    margin-left:0px;
+}
+.tabs :nth-child(4){
+    margin-right:0px;
+}
+.tabs :nth-child(8){
+    margin-right:0px;
+}
+.color-black{
+    color:black;
+}
+.howitwoorks{
+    margin:90px 142px 146px 142px;
+    height:737px;
+    background-color: white;
+    background-image: url(../css/howitwoorks-background.png);
+    background-repeat: no-repeat;
+    background-position-x: 530px;
+    background-position-y: 60px;
+    border-radius: 10px;
+}
+.howitwoorks .text-container{
+    margin-left:98px;
+}
+.howitwoorks h1{
+    font-family: Averta-bold;
+    color:#555555;
+    font-size: 41px;
+}
+.howitwoorks .description{
+    font-family: Averta-regular;
+    font-size: 22px;
+    padding-top:10px;
+    width:348px;
+    opacity:0.7;
+}
+.howitwoorks button{
+    font-family: Averta-semibold;
+    color:white;
+    border: none;
+    margin-top:10px;
+    font-size: 23px;
+    width: 177px;
+    padding:15px 10px;
+}
+.howitwoorks img{
+    position: relative;
+    left:880px;
+    bottom:180px;
+    width:116px;
+    height:66px;
+}
+.Featured{
+    margin:0px 142px 0px 142px;
+}
+.Featured .title h4{
+    font-family: Averta-bold;
+    font-size:32px;
+    opacity:0.8;
+}
+.pro-icon{
+    position:relative;
+    bottom:15px;
+    right:10px;
+    background-color: blueviolet;
+    width: 83px;
+    border: 1px solid white;
+    border-radius: 85px;
+}
+.pro-icon p{
+    font-size: 13px;
+    color:white;
+    font-family: Averta-semibold;
+    margin:0px;
+    padding:4px 13px 4px 13px;
+}
+.Featured{
+    margin-bottom:146px;
+}
+.featured-user{
+  padding:15px;
+}
+.featured-username{
+    padding-left:8px;
+    margin-bottom:0px;
+    color:black;
+    font-family:Averta-semibold;
+    font-size:18px;
+}
+.rate-number{
+    padding-left:4px;
+    font-family: Averta-bold;
+}
+.featured-block{
+    width:397px;
+    height:458px;
+    margin:5px;
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+.featured-block .img-container{
+    height: 249px;
+}
+.featured-description{
+    border-bottom: solid 1px #E3E3E3;
+    margin:0px 10px 0px 10px;
+}
+.featured-description p{
+    font-family: Averta-thin;
+    font-size: 18px;
+    color:black;
+    opacity:0.6;
+}
+.featured-block .bottom{
+    padding:0px 15px 5px 15px;
+}
+.featured-block .bottom h4{
+    font-size: 20px;
+    padding:16px 0px 22px 10px;
+    margin-bottom:0px;
+    font-family: Averta-regular;
+}
+b{
+    font-weight: 900;
+}
+.hidden{
+    visibility: hidden;
+}
+.rate-number{
+    color:#FFBF00;
+    font-size:18px;
+}
+.WoorkBlog{
+    margin-top:75px;
+    margin:75px 142px 150px 142px;
+}
+.WoorkBlog h2{
+    font-family: Averta-extrabold;
+    opacity:0.8;
+    font-size:32px;
+}
+.blog-inset div{
+    margin-top:20px;
+}
+.StayAtHome{
+    margin:20px 142px 128px 142px;
+    padding-top:15px;
+    height:404px;
+    background-color: #734AEA;
+    border-radius: 10px;
+    color:white;
+    font-size:20px;
+    font-family:Averta-semibold;
+}
+.StayAtHome h1{
+    font-family:Averta-bold;
+    font-size:40px;
+}
+.StayAtHome-button{
+    background-color: transparent;
+    color:white;
+    width:108px;
+    height:56px;
+    border:1px solid white;
+    border-radius:10px;
+}
+.StayAtHome-button p{
+    margin-bottom:0px;
+}
+.pre-footer{
+    margin:0px 142px 88px 142px;
+}
+.pre-footer p{
+    color:#322127;
+    font-size: 20px;
+    font-family: Averta-regular;
+}
+.pre-footer .title{
+    color:#322127;
+    font-family: Averta-extrabold;
+    margin-bottom:60px;
+}
+.footer{
+    margin-left:142px;
+    margin-right:142px;
+    padding-top:30px;
+    border-top:1px solid #707070;
+}
+.footer p{
+    font-family: Averta-thin;
+    font-size: 16px;
+    opacity:0.8;
 }
 .padding-bottom-40px{
     padding-bottom:40px;
@@ -149,201 +441,9 @@ button{
 .padding-right-50px{
     padding-right:140px;
 }
-.nopadding {
-    padding: 0 !important;
-    margin: 0 !important;
+.nopadding-bottom {
+    margin-bottom: 0 !important;
  }
-.marketing-inset{
-    display:flex;
-    justify-content: center;
-}
-.marketing-inset p{
-    color:black;
-    margin:0px 40px 0 40px;
-    text-align: center;
-}
-.marketing-inset .title{
-    padding-top: 10px;
-    font-weight: 800;
-}
-.marketing-inset .description{
-    padding-top:10px;
-    font-weight: 500;
-
-}
-.media-tabs{
-    margin-left:110px;
-    margin-top:60px
-}
-.media-tabs h4{
-    padding-left:10px;
-}
-.media-tabs img{
-    padding:15px
-}
-.media-tabs .icon{
-    position: relative;
-    width:40px;
-    height:25px;
-}
-.media-tabs h5{
-    display: flex;
-    padding-top:8px;
-    font-weight: 700;
-}
-.media-tabs .container{
-    width: 300px;
-    height:150px;
-    margin:10px;
-}
-.media-tabs .col-md-3{
-    height: 130px;
-    margin:5px;
-}
-.color-black{
-    color:black;
-}
-.howitwoorks{
-    margin:90px 118px 90px 118px;
-    height:600px;
-    background-color: white;
-    background-image: url(../css/howitwoorks-background.png);
-    background-repeat: no-repeat;
-    background-position-x: 420px;
-    background-position-y: 60px;
-    background-size: 800px;
-    border-radius: 10px;
-}
-.howitwoorks .text-container{
-    margin-left:66px;
-}
-.howitwoorks h1{
-    font-family: Averta-bold;
-    font-weight: 800;
-    opacity: 0.8;
-    font-size: 34px;
-}
-.howitwoorks .description{
-    font-family: Averta-regular;
-    padding-top:10px;
-    width:220px;
-    opacity:0.7;
-}
-.howitwoorks button{
-    font-family: Averta-bold;
-    color:white;
-    margin-top:10px;
-    width: 130px;
-    padding:15px 10px;
-}
-.pro-icon{
-    position:relative;
-    bottom:15px;
-    right:10px;
-    background-color: blueviolet;
-    width: 83px;
-    border: 1px solid white;
-    border-radius: 40px;
-}
-.pro-icon p{
-    font-size: 11px;
-    font-family: Averta-bold;
-    margin:0px;
-    padding:4px 13px 4px 13px;
-}
-.featured-user{
-    padding-left:10px;
-    padding-right:10px;
-    padding-bottom:10px;
-}
-.featured-username{
-    padding-left:8px;
-    margin-bottom:0px;
-    color:black;
-    font-family:Averta-regular;
-}
-.rate-number{
-    padding-left:4px;
-}
-.featured-block{
-    width:315px;
-    margin:5px;
-    border-radius: 10px;
-    background-color: white;
-    overflow: hidden;
-    box-shadow:0 4px 4px rgba(0,0,0,0.4);
-}
-.featured-block .img-container{
-    height: 210px;
-}
-.Featured .title h4{
-    margin-left:115px;
-}
-.featured-description{
-    border-bottom: solid 1px #E3E3E3;
-    margin:0px 10px 0px 10px;
-}
-.featured-description p{
-    font-family: Averta-thin;
-    font-size: 14px;
-    color:black;
-    opacity:0.6;
-}
-.featured-block .bottom{
-    padding:5px 15px 5px 15px;
-}
-.featured-block .bottom h4{
-    font-size: 18px;
-    padding:10px;
-    margin-bottom:0px;
-    font-family: Averta-regular;
-}
-b{
-    font-weight: 900;
-}
-.hidden{
-    visibility: hidden;
-}
-.rate-number{
-    color:#FFBF00;
-}
-.WoorkBlog{
-    margin-top:75px;
-}
-.WoorkBlog h2{
-    margin-left: 110px;
-}
-.blog-inset{
-    padding:11px;
-}
-.StayAtHome{
-    margin-top:20px;
-    padding-top:15px;
-    width:1325px;
-    height:281px;
-    background-color: #734AEA;
-    border-radius: 15px;
-}
-.pre-footer{
-    margin-top:70px;
-    width:1278px;
-}
-.pre-footer p{
-    color:grey;
-    font-weight: 600;
-    font-size: 14px;
-}
-.pre-footer .flex-column .title{
-    color:black;
-    font-size:16px;
-}
-.footer{
-    margin-left:90px;
-    margin-right:90px;
-    padding-top:30px;
-    margin-top:30px;
-    border-top:2px solid #E3E3E3;
-}
 
 
 
