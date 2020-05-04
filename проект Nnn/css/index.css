@@ -21,26 +21,20 @@
 .col-md-18.col-md-10.col-md-3{
     padding-left: none;
 }
-h1,h2,h3,h4,h5,p{
-    font-size:16px
-}
-body{
-    background-color:#F6F6F6;
-}
 .row{
     margin-left:0px!important;
 }
 
 .logo-container img{
-    width:140px;
-    height:36px;
+    width:7.292vw;
+    height:1.875vw;
 }
 .header{
     background-color:#734AEA;
     background-image:url(../css/Group\ 1345.png);
     background-repeat: no-repeat;
-    background-size:64%;
-    background-position: 88% 40%;
+    background-size:66%;
+    background-position: 88% 60%;
     overflow: hidden;
     padding:5.2% 7.4% 5.2% 7.4%;
     height:50.521vw;
@@ -50,20 +44,20 @@ body{
 }
 .head-nav button{
     font-family: Averta-bold;
-    font-size:0.833vw;
     color:white;
     background-color: transparent;
     border:none;
-    border-radius:10px;
+    border-radius:0.521vw;
 }
 .head-nav :nth-child(3){
     background-color:#F7B632;
     width:7.917vw;
-    height:56px;
+    height:2.917vw;
 }
 .head-nav p{
     margin-bottom:0px;
-    padding:11px;
+    font-size:1.25em;
+    padding:0.573vw;
 }
 .buttons1 button p{
     margin-bottom:0px;
@@ -71,11 +65,11 @@ body{
 }
 .bgg-orange{
     background-color:#F7B632;
-    border-radius: 8px;
+    border-radius: 0.417vw;
 }
 .bgg-white{
     background-color:#Ffffff;
-    border-radius: 8px; 
+    border-radius: 0.417vw; 
 }
 .nobgg{
     background-color: transparent;  
@@ -84,61 +78,61 @@ body{
     padding-top:8.750vw;
 }
 .header-title h1{
-    padding-bottom:31px;
-    width: 33vw;
-    font-size:2.604vw;
+    padding-bottom:1.615vw;
+    width: 40%;
+    font-size:3.125em;
     font-family: Averta-bold;
 }
 .header-title button{
     background-color: #F7B632;
     border:none;
     color:white;
-    font-size:1.198vw;
-    padding:5px 10px 5px 10px;
-    width:6.510416666666667vw;
-    height:65px;
+    font-size:1.4375em;
+    padding:0.260vw 0.521vw;
+    width:7%;
+    height:3.333vw;
     font-family:Averta-semibold;
-    border-radius:10px;
-    margin-left:9px;
+    border-radius:0.469vw;
+    margin-left:0.469vw;
 
 }
 .header-title input{
     border:none;
-    border-radius: 8px;
-    width:23.4375vw;
-    height:50px;
-    padding-left:10px;
+    border-radius:0.417vw;
+    width:80%;
+    height:2.604vw;
+    padding-left:0.521vw;
     font-size: 1.125em;
     opacity: 0.5;
 }
 .header-title .input-container{
-    border-radius: 10px;
+    border-radius: 0.521vw;
     background-color: white;
     width:26.718750000000004vw;
 }
 .header-title .input-container img{
-    margin-left:21px;
+    margin-left:1.094vw;
     width:4.54054054%;
     height: 32.3076923%
 }
 .header-title .input-container .arrow{
     opacity: 1;
     padding-left:0px;
-    width:100%;
-    height:100%;
-    margin-right:14px;
+    width:0.781vw;
+    height:8,61vw;
+    margin-right:0.729vw;
 }
 .popular{
-    margin-top:15px;
+    margin-top:0.781vw;
     width:26.041666666666668vw;
     opacity: 0.7;
 }
 .popular-tab{
-    margin:10px;
+    margin:0.521vw;
     height:4.49438202247191vh;
     background-color: transparent;
-    border-radius: 4px;
-    border:1.5px solid rgba(168, 168, 168, 0.623);
+    border-radius: 0.208vw;
+    border:0.052vw solid rgba(168, 168, 168, 0.623);
 }
 .popular-tab:nth-child(1){
     padding-left:0px;
@@ -153,7 +147,7 @@ body{
 .popular p{
     color:white;
     font-family: Averta-semibold;
-    font-size:14px;
+    font-size:0.875em;
     margin-bottom: 0px;
     padding:1vh 0.83vw;
 }
@@ -163,63 +157,60 @@ body{
 .watch-demo{
     color:white;
     position: relative;
-    top:11.666666666666666vw;
+    top:13.8vw;
     font-family:Averta-bold;
-    font-size:1.1979166666666667vw;
+    font-size:1.4375em;
 }
 .marketing-toolbar{
     position: relative;
     background-color: #F7B632;
-    border-radius:10px;
+    border-radius:0.521vw;
     bottom:4.085801838610827vh;
-    width:100%;
-    padding:0px 2.083333333333333vw 2.604166666666667vw 2.083333333333333vw;
+    width:85.365vw; 
     margin-bottom:7.604166666666666vw;
 }
 
 .marketing-toolbar img{
-    margin-top:20px;
+    margin-top:1.042vw;
 }
 
 .marketing-inset{
     align-content: center;
     justify-content: center;
+    padding:3.290vw 0 3.490vw 0;
 }
 .marketing-inset p{
     color:#322127;
     text-align: center;
 }
 .marketing-inset .title{
-    padding-top: 10px;
+    padding-top: 0.521vw;
     font-family: Averta-extrabold;
     font-size:1.375em;
     color:#322127;
-    width: 12.291666666666666vw;
+    width:12vw;
 }
 .marketing-inset .description{
     font-family: Averta-regular;
     width:16.666666666666664vw;
     font-size:1.0625em
 }
-.marketing-inset .img-container{
-    height:98px
-}
 .media-tabs{
-    margin:0px 142px 146px 142px;
+    margin:0px 7.396vw 7.604vw 7.396vw;
 }
 .media-tabs h4{
-    font-size: 32px;
+    font-size: 2em;
     font-family: Averta-extrabold;
     opacity:0.8;
-    margin-bottom:15px;
+    margin-bottom:0.781vw;
 }
 .media-tabs img{
-    padding:10px;
+    padding:0.521vw;
 }
 .media-tabs .icon{
     position: relative;
     width:2.083333333333333vw;
-    height:25px;
+    height:1.302vw;
 }
 .media-tabs h5{
     font-family: Averta-extrabold;
@@ -227,8 +218,8 @@ body{
 }
 .media-tabs .tab{
     width: 24.2%;
-    height:19vh;
-    margin:6px;
+    height:10.677vw;
+    margin:0.313vw;
 }
 .tabs :nth-child(1){
     margin-left:0px;
@@ -246,54 +237,69 @@ body{
     color:black;
 }
 .howitwoorks{
-    margin:90px 7.395833333333333vw 4.698672114402451vh 7.395833333333333vw;
-    height:737px;
+    margin:4.688vw 7.395833333333333vw 4.698672114402451vh 7.395833333333333vw;
+    height:38.385vw;
     background-color: white;
     background-image: url(../css/howitwoorks-background.png);
     background-repeat: no-repeat;
-    background-position-x: 515px;
-    background-position-y: 60px;
-    background-size:106vh;
-    border-radius: 10px;
+    background-position-x: 26.823vw;
+    background-position-y: 3.15vw;
+    background-size:54.5vw;
+    border-radius: 0.521vw;
 }
 .howitwoorks .text-container{
     margin-left: 5.1vw;
 }
 .howitwoorks h1{
+    margin-top:5vw;
     font-family: Averta-bold;
     color:#555555;
-    font-size: 41px;
+    font-size:2.5625em;
+}
+.howitwoorks p{
+    font-size:1.375em;
 }
 .howitwoorks .description{
     font-family: Averta-regular;
-    font-size: 22px;
-    padding-top:1.0214504596527068vh;
-    width:18.125vw;
+    padding-top:1.vh;
+    margin-top:1.354vw;
+    width:17vw;
     opacity:0.7;
 }
 .howitwoorks button{
     font-family: Averta-semibold;
     color:white;
     border: none;
-    margin-top:1.0214504596527068vh;
-    font-size: 23px;
-    width: 9.21875vw;
-    padding:1.53vh 0.52vw;
+    margin-top:1.354vw;
+    font-size:1.4375em;
+    width:9.219vw;
+    height:3.385vw;
+    background-color:#F7B632;
+    border-radius: 0.417vw;
 }
 .howitwoorks img{
     position: relative;
     left:45.83vw;
-    bottom:18.38610827374872vh;
-    width:6.041666666666667vw;
-    height:6.741573033707865vh;
+    bottom:11.5vw;
+    width:6.042vw;
+    height:3.438vw;
 }
 .Featured{
-    margin:0px 7.395833333333333vw 0px 7.395833333333333vw;
+    margin:0 7.4vw 7.6vw 7.4vw;
 }
 .Featured .title h4{
     font-family:Averta-bold;
-    font-size:1.6vw;
+    font-size:2em;
     opacity:0.8;
+}
+.featured-block{
+    width:20.677083333333332vw;
+    height:23.854vw;
+    margin:0.260vw;
+    border-radius:0.521vw;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
 }
 .pro-icon{
     position:relative;
@@ -302,108 +308,108 @@ body{
     background-color: blueviolet;
     width: 4.322916666666667vw;
     border: 1px solid white;
-    border-radius: 85px;
+    border-radius:4.427vw;
 }
 .pro-icon p{
-    font-size: 0.6770833333333334vw;
+    font-size:0.8125em;
     color:white;
     font-family: Averta-semibold;
     margin:0px;
     padding:0.40858018386108275vh 0.6770833333333334vw;
 }
-.Featured{
-    margin-bottom:7.604166666666666vw;
-}
+
 .featured-user{
-  padding:15px;
+  padding:0.25vw 0.781vw 0.781vw 0.781vw
+  ;
 }
 .featured-username{
     padding-left:0.2083vw;
     margin-bottom:0px;
     color:black;
     font-family:Averta-semibold;
-    font-size:18px;
+    font-size:1.125em;
 }
 .rate-number{
-    padding-left:4px;
+    padding-left:0.208vw;
     font-family: Averta-bold;
 }
-.featured-block{
-    width:20.677083333333332vw;
-    height: 46.782431052093976vh;
-    margin:5px;
-    border-radius: 10px;
-    background-color: white;
-    overflow: hidden;
-    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-}
+
 .featured-block .img-container{
-    height: 25.4341164453524vh;
+    height: 12.969vw;
 }
 .featured-description{
-    border-bottom: solid 1px #E3E3E3;
-    margin:0px 1.0214504596527068vh 0px 1.0214504596527068vh;
+    padding:0px 0.5vw 2vw 0.5vw;
 }
 .featured-description p{
     font-family: Averta-thin;
-    font-size: 18px;
+    font-size: 1.125em;
+    margin-bottom:0px;
     color:black;
     opacity:0.6;
 }
 .featured-block .bottom{
-    padding:0px 0.78125vw 0.5107252298263534vh 0.78125vw;
+    border-top: solid 0.8px #E3E3E3;
+    margin:0px 0.8vw 0px 0.8vw
 }
 .featured-block .bottom h4{
-    font-size: 20px;
-    padding:1.634320735444331vh 0px 2.247191011235955vh 0.52083vw;
-    margin-bottom:0px;
+    font-size:1.25em;
+    padding:0.8vw 0vw 0.8vw 0vw;
     font-family: Averta-regular;
 }
 b{
-    font-weight: 900;
+    font-family: Averta-semibold;
 }
 .hidden{
     visibility: hidden;
 }
 .rate-number{
     color:#FFBF00;
-    font-size:18px;
+    font-size:1.125em;
 }
 .WoorkBlog{
-    margin-top:75px;
-    margin:7.6608784473953015vh 7.395833333333333vw 15.321756894790603vh 7.395833333333333vw;
+    margin-top:3.906vw;
+    margin:7vw 7.4vw 8vw 7.4vw;
 }
 .WoorkBlog h2{
-    font-family: Averta-extrabold;
+    font-family: Averta-extraBold;
+    font-size:2em;
     opacity:0.8;
-    font-size:1.6666666666666667vw;
 }
-.blog-inset div{
-    margin-top:2.0429009193054135vh;
+.WoorkBlog p{
+    margin-bottom:0px;
+    font-size:1.25em;
+    font-family: Averta-regular;
+}
+.WoorkBlog div{
+    margin-top:0.2vw;
 }
 .StayAtHome{
-    margin:2.0429009193054135vh 7.395833333333333vw 13.074565883554648vh 7.395833333333333vw;
-    padding-top:15px;
-    height:41.266598569969354vh;
+    margin:0 7.395833333333333vw 8vw 7.395833333333333vw;
+    height:21.042vw;
     background-color: #734AEA;
-    border-radius: 10px;
+    border-radius: 0.521vw;
     color:white;
-    font-size:2.0429009193054135vh;
-    font-family:Averta-semibold;
 }
 .StayAtHome h1{
     font-family:Averta-bold;
-    font-size:4.085801838610827vh;
+    font-size:2.5em;
+    margin-bottom:0px;
+}
+.StayAtHome p{
+    font-size:1.25em;
+    font-family:Averta-semibold;
+    margin-bottom:1vw;
 }
 .StayAtHome-button{
     background-color: transparent;
     color:white;
     width:5.625vw;
-    height:5.720122574055158vh;
+    height:2.917vw;
     border:1px solid white;
-    border-radius:10px;
+    border-radius:0.521vw;
 }
 .StayAtHome-button p{
+    font-size:1.25em;
     margin-bottom:0px;
 }
 .pre-footer{
@@ -411,7 +417,7 @@ b{
 }
 .pre-footer p{
     color:#322127;
-    font-size: 1.0416666666666667vw;
+    font-size: 1.25;
     font-family: Averta-regular;
 }
 .pre-footer .title{
@@ -422,19 +428,23 @@ b{
 .footer{
     margin-left:7.395833333333333vw;
     margin-right:7.395833333333333vw;
-    padding-top:3.0643513789581207vh;
+    padding-top:1.3vw;
     border-top:1px solid #707070;
 }
 .footer p{
     font-family: Averta-thin;
-    font-size:0.8333333333333334vw;
+    font-size:1em;
     opacity:0.8;
+    margin-bottom: 0.3vw;
+}
+.footer :nth-child(3) div{
+    margin:0.6vw;
 }
 .padding-bottom-40px{
-    padding-bottom:40px;
+    padding-bottom:2.083vw;
 }
 .margin-left-40px{
-    margin-left:40px;
+    margin-left:2.083vw;
 }
 .padding-top-10px{
     padding-top:10px;
