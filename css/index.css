@@ -1,0 +1,626 @@
+/* Main page */
+@font-face {
+    font-family: Averta-thin;
+    src: url("../css/fonts/Averta-Thin.otf")
+}
+@font-face {
+    font-family: Averta-regular;
+    src: url("../css/fonts/Averta-Regular.otf")
+}
+@font-face {
+    font-family: Averta-bold;
+    src: url("../css/fonts/Averta-Bold.otf")
+}
+@font-face{
+    font-family: Averta-semibold;
+    src:url("../css/fonts/Averta-Semibold.otf")
+}
+@font-face{
+    font-family: Averta-extrabold;
+    src:url("../css/fonts/Averta-ExtraBold.otf")
+}
+.col-md-18.col-md-10.col-md-3{
+    padding-left: none;
+}
+.row{
+    margin-left:0px!important;
+}
+
+.logo-container img{
+    width:7.292vw;
+    height:1.875vw;
+}
+.header{
+    background-color:#734AEA;
+    background-image:url(../css/Group\ 1345.png);
+    background-repeat: no-repeat;
+    background-size:66%;
+    background-position: 88% 60%;
+    overflow: hidden;
+    padding:2.604vw 7.4% 5.2% 7.4%;
+    height:50.521vw;
+}
+.head-nav{
+    justify-content: flex-end;
+}
+.head-nav button{
+    font-family: Averta-bold;
+    color:white;
+    background-color: transparent;
+    border:none;
+    border-radius:0.521vw;
+}
+.head-nav :nth-child(3){
+    background-color:#F7B632;
+    width:7.917vw;
+    height:2.917vw;
+}
+.head-nav p{
+    margin-bottom:0px;
+    font-size:1.25em;
+    padding:0.573vw;
+}
+.buttons1 button p{
+    margin-bottom:0px;
+    color:white
+}
+.bgg-orange{
+    background-color:#F7B632;
+    border-radius: 0.417vw;
+}
+.bgg-white{
+    background-color:#Ffffff;
+    border-radius: 0.417vw; 
+}
+.nobgg{
+    background-color: transparent;  
+}
+.header-title{
+    padding-top:12vw;
+}
+.header-title h1{
+    padding-bottom:1.615vw;
+    width: 40%;
+    font-size:3.125em;
+    font-family: Averta-bold;
+}
+.header-title button{
+    background-color: #F7B632;
+    border:none;
+    color:white;
+    font-size:1.4375em;
+    padding:0.260vw 0.521vw;
+    width:7%;
+    height:3.333vw;
+    font-family:Averta-semibold;
+    border-radius:0.469vw;
+    margin-left:0.469vw;
+
+}
+.header-title input{
+    border:none;
+    border-radius:0.417vw;
+    width:80%;
+    height:2.604vw;
+    padding-left:0.521vw;
+    font-size: 1.125em;
+    opacity: 0.5;
+}
+.header-title .input-container{
+    border-radius: 0.521vw;
+    background-color: white;
+    width:26.718750000000004vw;
+}
+.header-title .input-container img{
+    margin-left:1.094vw;
+    width:4.54054054%;
+    height: 32.3076923%
+}
+.header-title .input-container .arrow{
+    opacity: 1;
+    padding-left:0px;
+    width:0.781vw;
+    height:8,61vw;
+    margin-right:0.729vw;
+}
+.popular{
+    margin-top:0.781vw;
+    width:26.041666666666668vw;
+    opacity: 0.7;
+}
+.popular-tab{
+    margin:0.521vw;
+    height:4.49438202247191vh;
+    background-color: transparent;
+    border-radius: 0.208vw;
+    border:0.052vw solid rgba(168, 168, 168, 0.623);
+}
+.popular-tab:nth-child(1){
+    padding-left:0px;
+    margin-left: 0px;
+    border: none;
+}
+.popular-tab:nth-child(1) p{
+    padding-left:0px;
+    margin-left: 0px;
+    padding-right:0.57vw;
+}
+.popular p{
+    color:white;
+    font-family: Averta-semibold;
+    font-size:0.875em;
+    margin-bottom: 0px;
+    padding:1vh 0.83vw;
+}
+.header h1{
+    color:white;
+}
+.watch-demo{
+    color:white;
+    position: absolute;
+    top: 47vw;
+    font-family:Averta-bold;
+    font-size:1.4375em;
+}
+.marketing-toolbar{
+    position: relative;
+    background-color: #F7B632;
+    border-radius:0.521vw;
+    bottom:1.5vw;
+    width:85.365vw; 
+    margin-bottom:7.604166666666666vw;
+}
+
+.marketing-toolbar img{
+    margin-top:1.042vw;
+}
+
+.marketing-inset{
+    align-content: center;
+    justify-content: center;
+    padding:3.290vw 0 3.490vw 0;
+}
+.marketing-inset p{
+    color:#322127;
+    text-align: center;
+}
+.marketing-inset .title{
+    padding-top: 0.521vw;
+    font-family: Averta-extrabold;
+    font-size:1.375em;
+    color:#322127;
+    width:12vw;
+}
+.marketing-inset .description{
+    font-family: Averta-regular;
+    width:16.666666666666664vw;
+    font-size:1.0625em
+}
+.media-tabs{
+    margin:0px 7.396vw 7.604vw 7.396vw;
+}
+.media-tabs h4{
+    font-size: 2em;
+    font-family: Averta-extrabold;
+    opacity:0.8;
+    margin-bottom:0.781vw;
+}
+.media-tabs .icon{
+    position: relative;
+    width:2.083333333333333vw;
+    height:1.302vw;
+}
+.media-tabs img{
+    margin-bottom:0.4vw;
+    padding-bottom:0px;
+}
+.media-tabs h5{
+    font-family: Averta-extrabold;
+    font-size: 1.375em;
+    margin-bottom:0px;
+}
+.media-tabs .tab{
+    width: 24.2%;
+    height:10.677vw;
+    margin:0.313vw;
+}
+.tabs :nth-child(1){
+    margin-left:0px;
+}
+.tabs :nth-child(5){
+    margin-left:0px;
+}
+.tabs :nth-child(4){
+    margin-right:0px;
+}
+.tabs :nth-child(8){
+    margin-right:0px;
+}
+.color-black{
+    color:black;
+}
+.howitwoorks{
+    margin:4.688vw 7.395833333333333vw 4.698672114402451vh 7.395833333333333vw;
+    height:38.385vw;
+    background-color: white;
+    background-image: url(../css/howitwoorks-background.png);
+    background-repeat: no-repeat;
+    background-position-x: 26.823vw;
+    background-position-y: 3.15vw;
+    background-size:54.5vw;
+    border-radius: 0.521vw;
+}
+.howitwoorks .text-container{
+    margin-left: 5.1vw;
+}
+.howitwoorks h1{
+    margin-top:5vw;
+    font-family: Averta-bold;
+    color:#555555;
+    font-size:2.5625em;
+}
+.howitwoorks p{
+    font-size:1.375em;
+}
+.howitwoorks .description{
+    font-family: Averta-regular;
+    padding-top:1.vh;
+    margin-top:1.354vw;
+    width:17vw;
+    opacity:0.7;
+}
+.howitwoorks button{
+    font-family: Averta-semibold;
+    color:white;
+    border: none;
+    margin-top:1.354vw;
+    font-size:1.4375em;
+    width:9.219vw;
+    height:3.385vw;
+    background-color:#F7B632;
+    border-radius: 0.417vw;
+}
+.howitwoorks img{
+    position: relative;
+    left:45.83vw;
+    bottom:11.5vw;
+    width:6.042vw;
+    height:3.438vw;
+}
+.Featured{
+    margin:0 7.4vw 7.6vw 7.4vw;
+}
+.Featured .title h4{
+    font-family:Averta-bold;
+    font-size:2em;
+    opacity:0.8;
+}
+.featured-block{
+    width:20.677083333333332vw;
+    height:23.854vw;
+    margin:0.52vw;
+    border-radius:0.521vw;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+.pro-icon{
+    position:relative;
+    bottom:1.5vh;
+    right:0.52vw;
+    background-color: blueviolet;
+    width: 4.32vw;
+    border: 1px solid white;
+    border-radius:4.48vw;
+}
+.pro-icon p{
+    font-size:0.8125em;
+    color:white;
+    font-family: Averta-semibold;
+    margin:0px;
+    padding:0.3vw 0.7vw;
+}
+
+.featured-user{
+  padding:0.8vw 0.781vw 0.7vw 0.781vw
+  ;
+}
+.featured-username{
+    padding-left:0.54vw;
+    margin-bottom:0px;
+    color:black;
+    font-family:Averta-semibold;
+    font-size:1.125em;
+}
+.rate-number{
+    padding-left:0.208vw;
+    font-family: Averta-bold;
+}
+
+.featured-block .img-container img{
+    height: 11.969vw;
+    width:20.677vw;
+    min-height: 100%;
+}
+.featured-description{
+    padding:0px 0.5vw 0.8vw 1vw;
+}
+.featured-description p{
+    font-family: Averta-thin;
+    font-size: 1.125em;
+    margin-bottom:0px;
+    color:black;
+    opacity:0.6;
+}
+.featured-block .bottom{
+    border-top: solid 0.8px #E3E3E3;
+    margin:0px 0.8vw 0.8vw 1vw
+}
+.featured-block .bottom h4{
+    font-size:1.25em;
+    margin-bottom:0px;
+    padding:0.8vw 0vw 0.8vw 0vw;
+    font-family: Averta-regular;
+}
+b{
+    font-family: Averta-semibold;
+}
+.hidden{
+    visibility: hidden;
+}
+.rate-number{
+    color:#FFBF00;
+    font-size:1.125em;
+}
+.WoorkBlog{
+    margin-top:3.906vw;
+    margin:7vw 7.4vw 8vw 7.4vw;
+}
+.WoorkBlog h2{
+    font-family: Averta-extraBold;
+    font-size:2em;
+    opacity:0.8;
+}
+.WoorkBlog p{
+    margin-bottom:0px;
+    font-size:1.25em;
+    font-family: Averta-regular;
+}
+.WoorkBlog div{
+    margin-top:0.2vw;
+}
+.StayAtHome{
+    margin:0 7.395833333333333vw 6vw 7.395833333333333vw;
+    height:21.042vw;
+    background-color: #734AEA;
+    border-radius: 0.521vw;
+    color:white;
+}
+.StayAtHome h1{
+    font-family:Averta-bold;
+    font-size:2.5em;
+    margin-bottom:0px;
+}
+.StayAtHome p{
+    font-size:1.25em;
+    font-family:Averta-semibold;
+    margin-bottom:0px;
+}
+.StayAtHome-button{
+    background-color: transparent;
+    color:white;
+    width:5.625vw;
+    height:2.917vw;
+    border:1px solid white;
+    border-radius:0.521vw;
+}
+.StayAtHome-button p{
+    font-size:1.25em;
+    margin-bottom:0px;
+}
+.footer p{
+    color:#322127;
+    font-size: 1.25;
+    font-family: Averta-regular;
+}
+.footer .title{
+    color:#322127;
+    font-family: Averta-extrabold;
+    margin-bottom:3vw;
+}
+.footer{
+    margin:0px 7.4vw 4vw 7.4vw;
+    padding-top:2.3vw;
+}
+.footer p{
+    font-family: Averta-thin;
+    font-size:1.25em;
+    margin-bottom: 0.3vw;
+}
+.footer .copyright{
+    font-size:0.8em;
+    opacity:0.5;
+}
+.social-icons{
+    width:18.8vw;
+    margin-bottom:4vw;
+}
+.padding-bottom-40px{
+    padding-bottom:2.083vw;
+}
+.margin-left-40px{
+    margin-left:2.083vw;
+}
+.padding-top-10px{
+    padding-top:10px;
+}
+.padding-bottom-20px{
+    padding-bottom:20px;
+}
+.margin-left-130px{
+    margin-left:40px;
+}
+.padding-right-50px{
+    padding-right:140px;
+}
+.nopadding-bottom {
+    margin-bottom: 0 !important;
+ }
+/* Categories page */
+
+.header-categories{
+    padding: 2vw 7.292vw 2vw 7.292vw;
+}
+
+.search{
+    margin-left:1.6vw;
+}
+.header-categories .input-container{
+    border:1px solid #B2B2B2;
+    opacity:0.7;
+    width:22.448vw;
+    height:2.917vw;
+    border-radius:0.417vw;
+
+}
+.header-categories .input-container input{
+    border:none;
+    margin-left:15px;
+}
+
+.header-categories .search button{
+    width:6.198vw;
+    height:2.917vw;
+    border-radius: 0.313vw;
+    background-color:#734aea;
+    border:none;
+    margin-left:1vw;
+}
+
+.header-categories .search button p{
+    margin-bottom:0px;
+    font-family:averta-semibold;
+    font-size:1em;
+    color:white;
+}
+
+.categories-nav{
+    padding:1vw;
+    border-top:1px solid #d4d4d4 ;
+    border-bottom:1px solid #d4d4d4 ;
+    padding-left:7.292vw;
+    padding-right:7.292vw;
+}
+.categories-nav p{
+    font-family:Averta-regular;
+    font-size:1.125em;
+    color:#555555;
+    margin-bottom:0px;
+}
+
+.category{
+    margin-left:7.292vw;
+    margin-top: 2vw;
+    margin-right:7.292vw;
+}
+.category p{
+    font-family:Averta-regular;
+    font-size:1em;
+}
+.category h1{
+    margin-bottom:0px;
+    font-family:Averta-bold;
+    font-size:2em;
+}
+
+.category .dropdown p{
+    font-family: Averta-regular;
+    font-size:1em;
+}
+.category .dropdown img{
+    margin-left:0.8vw;
+    width:0.7vw;
+    height:0.54vw;
+}
+.category .dropdown-toggle::after {
+    display:none;
+}
+.category .dropdown-toggle{
+    background-color:white;
+    height:2.292vw;
+    margin-right:1vw;
+    border:1px solid #dddddd;
+    border-radius:4px;
+}
+.round-button{
+    width:2.604vw;
+    height:1.58vw;
+    border-radius: 22.917vw;
+    background-color: #dadbdd;
+
+}
+.round-button p{
+    margin-bottom:0px;
+    margin-left:1vw;
+}
+
+.filter{
+    font-family:Averta-regular;
+    font-size:1em; 
+    margin-bottom:1.8vw;
+}
+.filter p{
+    margin-bottom:0px;
+    padding-right:0.8vw;
+
+}
+.filter-arrow{
+    width:0.4vw;
+    height:0.34vw;
+}
+.featured-list{
+    margin-bottom:3vw;
+}
+.featured-list .featured-block{
+    width:20.5vw;
+    margin:0.3vw;
+}
+.featured-list .featured-block .featured-user{
+    padding-top:0.8vw;
+}
+
+.num-nav{
+    width:35.208vw;
+    margin-bottom:1vw;
+}
+.num-nav p{
+    margin-bottom:0px;
+    font-family:Averta-semibold;
+    font-size:0.875em;
+    padding:1.347vw;
+}
+
+.explore-more{
+    padding-bottom:1.8vw;
+    margin-bottom:2.5vw;
+    border-bottom: 1px solid #b6b6b6;
+}
+.explore-more h3{
+    font-family:Averta-bold;
+    font-size:2em;
+}
+.design-cloud{
+    margin-left:10.292vw;
+    margin-right:10.292vw;
+}
+.design-container{
+    padding:0.833vw 2.5vw;
+    margin:1.250vw;
+    background-color:#F0F0F0;
+    border-radius:1.823vw;
+}
+.design-container p{
+    font-family:Averta-regular;
+    font-size:1em;
+}
+

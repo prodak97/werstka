@@ -1,0 +1,456 @@
+@font-face {
+    font-family: Averta-thin;
+    src: url("../css/fonts/Averta-Thin.otf")
+}
+@font-face {
+    font-family: Averta-regular;
+    src: url("../css/fonts/Averta-Regular.otf")
+}
+@font-face {
+    font-family: Averta-bold;
+    src: url("../css/fonts/Averta-Bold.otf")
+}
+@font-face{
+    font-family: Averta-semibold;
+    src:url("../css/fonts/Averta-Semibold.otf")
+}
+@font-face{
+    font-family: Averta-extrabold;
+    src:url("../css/fonts/Averta-ExtraBold.otf")
+}
+.col-md-18.col-md-10.col-md-3{
+    padding-left: none;
+}
+h1,h2,h3,h4,h5,p{
+    font-size:16px
+}
+body{
+    background-color:#F6F6F6;
+}
+.row{
+    margin-left:0px!important;
+}
+
+.logo-container img{
+    width:140px;
+    height:36px;
+}
+.header{
+    background-color:#734AEA;
+    background-image:url(../css/Group\ 1345.png);
+    background-repeat: no-repeat;
+    background-size:64%;
+    background-position: 88% 40%;
+    overflow: hidden;
+    padding:5.2% 7.4% 5.2% 7.4%;
+    height:980px;
+}
+.head-nav{
+    justify-content: flex-end;
+}
+.head-nav button{
+    font-family: Averta-bold;
+    font-size:1em;
+    color:white;
+    background-color: transparent;
+    border:none;
+    border-radius:10px;
+}
+.head-nav :nth-child(3){
+    background-color:#F7B632;
+    width:49%;
+    height:56px;
+}
+.head-nav p{
+    margin-bottom:0px;
+    padding:11px;
+}
+.buttons1 button p{
+    margin-bottom:0px;
+    color:white
+}
+.bgg-orange{
+    background-color:#F7B632;
+    border-radius: 8px;
+}
+.bgg-white{
+    background-color:#Ffffff;
+    border-radius: 8px; 
+}
+.nobgg{
+    background-color: transparent;  
+}
+.header-title{
+    padding-top:168px;
+}
+.header-title h1{
+    padding-bottom:31px;
+    width: 33vw;
+    font-size:2.604166666666667vw;
+    font-family: Averta-bold;
+}
+.header-title button{
+    background-color: #F7B632;
+    border:none;
+    color:white;
+    font-size:23px;
+    padding:5px 10px 5px 10px;
+    width:125px;
+    height:65px;
+    font-family:Averta-semibold;
+    border-radius:10px;
+    margin-left:9px;
+
+}
+.header-title input{
+    border:none;
+    border-radius: 8px;
+    width:450px;
+    height:50px;
+    padding-left:10px;
+    font-size: 1.125em;
+    opacity: 0.5;
+}
+.header-title .input-container{
+    border-radius: 10px;
+    background-color: white;
+    width:513px;
+}
+.header-title .input-container img{
+    margin-left:21px;
+    width:4.54054054%;
+    height: 32.3076923%
+}
+.header-title .input-container .arrow{
+    opacity: 1;
+    padding-left:0px;
+    width:100%;
+    height:100%;
+    margin-right:14px;
+}
+.popular{
+    margin-top:15px;
+    width:500px;
+    opacity: 0.7;
+}
+.popular-tab{
+    margin:10px;
+    height:44px;
+    background-color: transparent;
+    border-radius: 4px;
+    border:1.5px solid rgba(168, 168, 168, 0.623);
+}
+.popular-tab:nth-child(1){
+    padding-left:0px;
+    margin-left: 0px;
+    border: none;
+}
+.popular-tab:nth-child(1) p{
+    padding-left:0px;
+    margin-left: 0px;
+    padding-right: 11px;
+}
+.popular p{
+    color:white;
+    font-family: Averta-semibold;
+    font-size:14px;
+    margin-bottom: 0px;
+    padding:10px 16px;
+}
+.header h1{
+    color:white;
+}
+.watch-demo{
+    color:white;
+    position: relative;
+    top:224px;
+    font-family:Averta-bold;
+    font-size:23px;
+}
+.marketing-toolbar{
+    position: relative;
+    background-color: #F7B632;
+    border-radius:10px;
+    bottom:40px;
+    width:100%;
+    padding:0px 40px 50px 40px;
+    margin-bottom:146px;
+}
+
+.marketing-toolbar img{
+    margin-top:20px;
+}
+
+.marketing-inset{
+    align-content: center;
+    justify-content: center;
+}
+.marketing-inset p{
+    color:#322127;
+    text-align: center;
+}
+.marketing-inset .title{
+    padding-top: 10px;
+    font-family: Averta-extrabold;
+    font-size:1.375em;
+    color:#322127;
+    width: 236px;
+}
+.marketing-inset .description{
+    font-family: Averta-regular;
+    width:320px;
+    font-size:1.0625em
+}
+.marketing-inset .img-container{
+    height:98px
+}
+.media-tabs{
+    margin:0px 142px 146px 142px;
+}
+.media-tabs h4{
+    font-size: 32px;
+    font-family: Averta-extrabold;
+    opacity:0.8;
+    margin-bottom:15px;
+}
+.media-tabs img{
+    padding:10px;
+}
+.media-tabs .icon{
+    position: relative;
+    width:40px;
+    height:25px;
+}
+.media-tabs h5{
+    font-family: Averta-extrabold;
+    font-size: 1.375em;
+}
+.media-tabs .tab{
+    width: 24.2%;
+    height:19vh;
+    margin:6px;
+}
+.tabs :nth-child(1){
+    margin-left:0px;
+}
+.tabs :nth-child(5){
+    margin-left:0px;
+}
+.tabs :nth-child(4){
+    margin-right:0px;
+}
+.tabs :nth-child(8){
+    margin-right:0px;
+}
+.color-black{
+    color:black;
+}
+.howitwoorks{
+    margin:90px 142px 146px 142px;
+    height:737px;
+    background-color: white;
+    background-image: url(../css/howitwoorks-background.png);
+    background-repeat: no-repeat;
+    background-position-x: 515px;
+    background-position-y: 60px;
+    background-size:106vh;
+    border-radius: 10px;
+}
+.howitwoorks .text-container{
+    margin-left:98px;
+}
+.howitwoorks h1{
+    font-family: Averta-bold;
+    color:#555555;
+    font-size: 41px;
+}
+.howitwoorks .description{
+    font-family: Averta-regular;
+    font-size: 22px;
+    padding-top:10px;
+    width:348px;
+    opacity:0.7;
+}
+.howitwoorks button{
+    font-family: Averta-semibold;
+    color:white;
+    border: none;
+    margin-top:10px;
+    font-size: 23px;
+    width: 177px;
+    padding:15px 10px;
+}
+.howitwoorks img{
+    position: relative;
+    left:880px;
+    bottom:180px;
+    width:116px;
+    height:66px;
+}
+.Featured{
+    margin:0px 142px 0px 142px;
+}
+.Featured .title h4{
+    font-family: Averta-bold;
+    font-size:32px;
+    opacity:0.8;
+}
+.pro-icon{
+    position:relative;
+    bottom:15px;
+    right:10px;
+    background-color: blueviolet;
+    width: 83px;
+    border: 1px solid white;
+    border-radius: 85px;
+}
+.pro-icon p{
+    font-size: 13px;
+    color:white;
+    font-family: Averta-semibold;
+    margin:0px;
+    padding:4px 13px 4px 13px;
+}
+.Featured{
+    margin-bottom:146px;
+}
+.featured-user{
+  padding:15px;
+}
+.featured-username{
+    padding-left:8px;
+    margin-bottom:0px;
+    color:black;
+    font-family:Averta-semibold;
+    font-size:18px;
+}
+.rate-number{
+    padding-left:4px;
+    font-family: Averta-bold;
+}
+.featured-block{
+    width:397px;
+    height:458px;
+    margin:5px;
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+.featured-block .img-container{
+    height: 249px;
+}
+.featured-description{
+    border-bottom: solid 1px #E3E3E3;
+    margin:0px 10px 0px 10px;
+}
+.featured-description p{
+    font-family: Averta-thin;
+    font-size: 18px;
+    color:black;
+    opacity:0.6;
+}
+.featured-block .bottom{
+    padding:0px 15px 5px 15px;
+}
+.featured-block .bottom h4{
+    font-size: 20px;
+    padding:16px 0px 22px 10px;
+    margin-bottom:0px;
+    font-family: Averta-regular;
+}
+b{
+    font-weight: 900;
+}
+.hidden{
+    visibility: hidden;
+}
+.rate-number{
+    color:#FFBF00;
+    font-size:18px;
+}
+.WoorkBlog{
+    margin-top:75px;
+    margin:75px 142px 150px 142px;
+}
+.WoorkBlog h2{
+    font-family: Averta-extrabold;
+    opacity:0.8;
+    font-size:32px;
+}
+.blog-inset div{
+    margin-top:20px;
+}
+.StayAtHome{
+    margin:20px 142px 128px 142px;
+    padding-top:15px;
+    height:404px;
+    background-color: #734AEA;
+    border-radius: 10px;
+    color:white;
+    font-size:20px;
+    font-family:Averta-semibold;
+}
+.StayAtHome h1{
+    font-family:Averta-bold;
+    font-size:40px;
+}
+.StayAtHome-button{
+    background-color: transparent;
+    color:white;
+    width:108px;
+    height:56px;
+    border:1px solid white;
+    border-radius:10px;
+}
+.StayAtHome-button p{
+    margin-bottom:0px;
+}
+.pre-footer{
+    margin:0px 142px 88px 142px;
+}
+.pre-footer p{
+    color:#322127;
+    font-size: 20px;
+    font-family: Averta-regular;
+}
+.pre-footer .title{
+    color:#322127;
+    font-family: Averta-extrabold;
+    margin-bottom:60px;
+}
+.footer{
+    margin-left:142px;
+    margin-right:142px;
+    padding-top:30px;
+    border-top:1px solid #707070;
+}
+.footer p{
+    font-family: Averta-thin;
+    font-size: 16px;
+    opacity:0.8;
+}
+.padding-bottom-40px{
+    padding-bottom:40px;
+}
+.margin-left-40px{
+    margin-left:40px;
+}
+.padding-top-10px{
+    padding-top:10px;
+}
+.padding-bottom-20px{
+    padding-bottom:20px;
+}
+.margin-left-130px{
+    margin-left:40px;
+}
+.padding-right-50px{
+    padding-right:140px;
+}
+.nopadding-bottom {
+    margin-bottom: 0 !important;
+ }
+
+
+
